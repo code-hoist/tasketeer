@@ -9,8 +9,8 @@ const Header: React.FC = () => {
       <a className="btn-ghost btn text-xl normal-case">Tasketeer</a>
       <div>
         {sessionData ? (
-          <div className="dropdown dropdown-end">
-            <label tabIndex={0} className="btn m-1 font-bold">
+          <div className="dropdown-end dropdown">
+            <label tabIndex={0} className="btn m-2 font-bold">
               {sessionData.user?.name}
               {sessionData.user?.image && (
                 <div className="avatar ml-4">
